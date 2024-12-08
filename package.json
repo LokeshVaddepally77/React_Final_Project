@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://lokeshvaddepally77.github.io/React_Final_Project/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
