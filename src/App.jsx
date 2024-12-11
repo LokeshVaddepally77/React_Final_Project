@@ -95,6 +95,7 @@ const AppContent = () => {
     <ThemeProvider>
       <div className="min-h-screen bg-gray-50">
         <div className="container mx-auto p-4 max-w-7xl">
+          <Router basename="/React_Final_Project">
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/login" element={<LoginScreen />} />
@@ -110,6 +111,7 @@ const AppContent = () => {
             />
             <Route path="" element={<Navigate to="/" replace />} />
           </Routes>
+            </Router>
         </div>
       </div>
     </ThemeProvider>
