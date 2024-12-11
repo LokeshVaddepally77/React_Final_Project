@@ -15,7 +15,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-// Set auth persistence to session (will clear on tab close)
 setPersistence(auth, browserSessionPersistence);
 
 export const db = getFirestore(app);
