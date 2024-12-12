@@ -6,7 +6,7 @@
   "homepage": "https://lokeshvaddepally77.github.io/React_Final_Project/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
